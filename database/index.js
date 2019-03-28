@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('localhost', 'ffpics')
+mongoose.connect('mongodb://localhost/ffpics')
 
 const db = mongoose.connection;
 
